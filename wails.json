@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "download-video-N23",
+  "outputfilename": "download-video-N23",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "NahuelDev23",
+    "email": "nahuel.dev.23@gmail.com"
+  },
+  "windows": {
+    "enabled": true
+}
+
+}
